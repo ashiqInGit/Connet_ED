@@ -1,0 +1,416 @@
+
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 5px 2px #00a896;
+    cursor: pointer;
+        }
+
+.card .card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -40px;
+    border-radius: 50px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.card img {
+    width: 30%;
+    height: auto;
+}
+
+
+.card-head h2{
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 2px #02c39a;
+}
+.fav_icons{
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 15%;
+  size: 50px;
+}
+.card1 h2{
+  margin-left: 26px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.card1 p{
+  margin-left: 32px;
+  margin-right: 32px;
+  font-size: 18px;
+  font-family: 'Roboto',Sans-serif;
+  color: #282828;
+  letter-spacing: 1.5px;
+}
+.h3 {
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.fav_icons{
+  margin-left: 20px;
+}
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background-color: #00838d;
+  border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  padding-top: 12px;
+  color: white;
+  font-family: courier, sans;
+}
+.card3 {
+  display: block;
+  position: relative;
+  max-width: 262px;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.card3-1{
+   background-image: url('Images/mushroom.jpg');
+}
+.card3-2{
+  background-image: url('Images/tomato.jpg');
+  
+}
+.card3-3{
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/26/19/12/potatoes-1772280__480.jpg');
+}
+.card3-4{
+  background-image: url('Images/beans.jpg');
+}
+.glow-on-hover{
+  width: 50%;
+  margin-left: 40px;
+  background-color: #02c39a;
+  box-shadow: 5px solid red;
+}
+.glow-on-hover i{
+  margin-top: 25px;
+}
+@media screen and (max-width: 1120px){
+  .small{
+    display: none;
+  }
+  img{
+    width: 100%;
+  }
+  .cardsw{
+    width: auto;
+  
+  }
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+/*------WALL-E------------->*/
+#mainbox{
+ font-size: 24px;
+ cursor: pointer;
+ transition: all .6s;
+}
+.mainbox img{
+  margin-top: 80%;
+  margin-left: 20%;
+}
+.sidemenu{
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ height: 100%;
+ width: 0px;
+ background-color: #222;
+ opacity: 0.8;
+ z-index: 1;
+ padding-top: 100px;
+ overflow-x: hidden;
+ transition: all .5s;
+}
+.sidemenu img{
+  opacity: none;
+  margin-left: 40%;
+}
+.sidemenu h1,input{ 
+  margin-left: 42%;
+}
+.sidemenu a{
+ padding: 8px 8px 8px 64px;
+ text-decoration: none;
+ font-size: 20px;
+ color: #999;
+ display: block;
+}
+.sidemenu a:hover{
+  color: white;
+}
+.sidemenu .closebtn{
+ position: absolute;
+ top: 0px;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 32px;
+}
+
+
+.userBox{
+  float: right;
+}
+@media screen and (max-width:1160px){
+  .sidemenu img{
+    margin-left: 50%;
+  }
+}
+@media screen and (max-width:1140px){
+  .sidemenu img{
+   display: block;
+   margin: 0 auto;
+   position: relative;
+   overflow-x: hidden;
+  }
+}
+
+.iris img{
+    margin-right: 15%;
+  }
+  button {
+  background-color:#E0E5EC;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+  color: #4D3252;
+  font-weight: 700;
+  height: 96px;
+  margin-bottom: 48px;
+  margin-right: 48px;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+  width: 95%;
+}
+
+button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  opacity: 0;
+  transform: translateX(-100%);
+  
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+}
+
+button:hover:after {
+  opacity: 1;
+  top: 0;
+  left: 0;
+  transform: translateX(0);
+  transition-property: transform, opacity;
+  transition-duration: 0.7s, 0.15s;
+  transition-timing-function: ease;
+}
+
+button:active:after {
+  opacity: 0;
+}
+.dear_iRIS{
+ margin-left: 30%;
+}
+.dear_iRIS img{
+  width: 50%;
+  height: 50%;
+}
+a {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+  
+
+/*
+*/
+.chat-container {
+  border: 2px solid #dedede;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 60%
+}
+
+.chat-container p {
+  background-color: white;
+  font-family: Helvetica;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #c0ffee;
+}
+
+.darker p {
+  background-color: #c0ffee;
+}
+
+/* Clear floats */
+.chat-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.chat-container img {
+  float: left;
+  max-width: 60px;
+  max-height: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.chat-container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
