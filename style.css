@@ -315,7 +315,7 @@ img{
     }
 
     .page1{
-        background-image: url('../img/phone-bg.png');
+        background-image: url('img/phone-bg.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
